@@ -14,7 +14,7 @@ class Song
   end
   
   def artist_name
-  if song.inlude?(artist)
+  if 
     self.artist.name
   else 
     nil
