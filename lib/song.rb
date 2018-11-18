@@ -14,6 +14,12 @@ class Song
   end
   
   def artist_name
-     song.inlude
+  if song.inlude?("artist")
+    self.artist.name
+  else 
+    nil
+  end
+end
+    
   
 end
