@@ -14,7 +14,7 @@ class Song
   end
   
   def artist_name
-    if song.artist = empty?
+    if self.artist = empty?
       return nil
     else 
       return self.artist.name
