@@ -26,10 +26,10 @@ end
 
 
 def song_count
-  artist.songs.each do |song|
-    self.all.count
+  
+    artist.all.count
   end
-end
+
   
   
 end
