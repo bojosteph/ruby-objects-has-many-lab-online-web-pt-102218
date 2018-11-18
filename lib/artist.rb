@@ -26,7 +26,7 @@ end
 
 
 def song_count
-  add_song(song).count
+  @@all.count
 end
   
   
