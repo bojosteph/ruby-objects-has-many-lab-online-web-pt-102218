@@ -34,6 +34,7 @@ def self.song_count
   counter
 end
 end
+end
 
   
   
