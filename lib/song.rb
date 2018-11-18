@@ -16,7 +16,6 @@ class Song
   def artist_name
     unless self.artist.nil?
     
-    
       return self.artist.name
     end
   end
