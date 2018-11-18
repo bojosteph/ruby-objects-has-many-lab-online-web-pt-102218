@@ -14,6 +14,6 @@ class Song
   end
   
   def artist_name
-     if 
+     song.inlude
   
 end
