@@ -2,7 +2,7 @@ class Artist
   
   attr_accessor :name
   
-   
+   @@song
  def initialize(name)
   @name = name
   @songs = []
@@ -30,8 +30,4 @@ def self.song_count
  
 end
 
-
-
-  
-  
 end
