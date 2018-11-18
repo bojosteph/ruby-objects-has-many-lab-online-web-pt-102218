@@ -29,6 +29,7 @@ def song_count
   artist.songs.collect do |song|
     song.count
   end
+end
   
   
 end
