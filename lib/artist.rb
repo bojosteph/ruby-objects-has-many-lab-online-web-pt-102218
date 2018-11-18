@@ -26,8 +26,8 @@ end
 
 
 def song_count
-  artist.songs.collect do |song|
-    song.count
+  artist.songs.each do |song|
+    @@all.count
   end
 end
   
