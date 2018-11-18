@@ -27,9 +27,13 @@ end
 
 
 def self.song_count
-  
-    
+  counter = 0
+  self.add_song(song)
+    counter += 1
   end
+  counter
+end
+end
 
   
   
